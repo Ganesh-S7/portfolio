@@ -80,6 +80,12 @@ body.dark .skills-box{
 .skills-box:hover .git{
     color: rgb(255, 1, 1);
 }
+.skills-box:hover .rwd{
+    color: rgb(151, 226, 239);
+}
+.skills-box:hover .api{
+    color: rgb(255, 157, 0);
+}
 
 .skills-box:hover{
     background: #e0e0e0;

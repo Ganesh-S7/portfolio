@@ -61,6 +61,22 @@ const Skills = () => {
                     </div>
                         <p className='skills-subtitle'>Basic</p>
                 </div>
+                <div className="skills-box">
+                <i class="uil uil-desktop rwd"></i>
+                    <div className="skills-group">                        
+                        <i class='bx bxs-badge-check'></i>
+                        <h3 className="skills-title">Responsive</h3>
+                    </div>
+                        <p className='skills-subtitle'>intermediate</p>
+                </div>
+                <div className="skills-box">
+                <i class="uil uil-server api"></i>
+                    <div className="skills-group">                        
+                        <i class='bx bxs-badge-check'></i>
+                        <h3 className="skills-title">Rest APIs</h3>
+                    </div>
+                        <p className='skills-subtitle'>intermediate</p>
+                </div>
             </div>
         </div>
         <div className="skills-head">
