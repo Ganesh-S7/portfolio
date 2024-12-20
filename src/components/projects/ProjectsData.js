@@ -1,7 +1,7 @@
 export const projectData = [
     {
         id: 7,
-        img: '../img/project7-1.jpg',
+        img: '../portfolio/img/project7-1.jpg',
         title: 'E-Commerce Website',
         cat: 'React',
         tec: 'React, CSS',
@@ -11,7 +11,7 @@ export const projectData = [
     },
     {
         id: 8,
-        img: '../img/project8-1.png',
+        img: '../portfolio/img/project8-1.png',
         title: 'Astro Boy Game',
         cat: 'JavaScript',
         tec: 'JavaScript',
@@ -21,7 +21,7 @@ export const projectData = [
     },
     {
         id: 2,
-        img: '../img/project2-2.jpg',
+        img: '../portfolio/img/project2-2.jpg',
         title: 'Weather App',
         cat: 'JavaScript',
         tec: 'HTML, CSS, JavaScript, API',
@@ -31,7 +31,7 @@ export const projectData = [
     },    
     {
         id: 5,
-        img: '../img/project5-2.jpg',
+        img: '../portfolio/img/project5-2.jpg',
         title: 'Netflix Clone',
         cat: 'JavaScript',
         tec: 'HTML, CSS, JavaScript, API',
@@ -41,7 +41,7 @@ export const projectData = [
     },
     {
         id: 6,
-        img: '../img/project6-1.jpg',
+        img: '../portfolio/img/project6-1.jpg',
         title: 'News App',
         cat: 'React',
         tec: 'React, CSS, API',
@@ -51,7 +51,7 @@ export const projectData = [
     },   
     {
         id: 3,
-        img: '../img/project3-3.jpg',
+        img: '../portfolio/img/project3-3.jpg',
         title: 'Employee Management System',
         cat: 'BootStrap',
         tec: 'HTML, CSS, BootStrap',
@@ -61,7 +61,7 @@ export const projectData = [
     },
     {
         id: 4,
-        img: '../img/project4-1.jpg',
+        img: '../portfolio/img/project4-1.jpg',
         title: 'Online Food Restaurant Website',
         cat: 'BootStrap',
         tec: 'HTML, CSS, BootStrap',
@@ -71,7 +71,7 @@ export const projectData = [
     },
     {
         id: 1,
-        img: '../img/project1-1.jpg',
+        img: '../portfolio/img/project1-1.jpg',
         title: 'Commercial Website',
         cat: 'HTML',
         tec: 'HTML, CSS',
