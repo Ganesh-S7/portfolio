@@ -1,0 +1,1411 @@
+@media screen and (max-width:990px) {
+
+    /** home section **/
+    .profile-pic,
+    .about-pic img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .main-intro h1, .typing-loop{
+        font-size: 35px !important;
+    }
+
+    .social-media{
+        font-size: 35px;
+    }
+
+    .scroll-down-button{
+        margin-top: 70px;
+        margin-left: 80px;
+    }
+    /** home section **/
+
+
+    /** about section **/
+    .about-container{
+        gap: 60px;
+    }
+
+    .about-left{
+        padding-left: 10px;
+    }
+    /** about section **/
+
+
+    /** education section **/
+   .education-sections{
+    grid-template-columns: 0.6fr;
+    }
+    /** education section **/
+    
+
+    /** projects section **/
+    .work-container{
+        gap: 1rem;
+    }
+
+    .work-card{
+        width: 270px;
+        height: 370px;
+    }
+
+    .card {
+        width: 220px;
+        height: 180px;
+    }
+
+    .project-img{
+        width: 220px;
+        height: 180px;
+        margin-top: 10px;
+    }
+    .project-demo,
+    .project-code{
+        font-size: 10px;
+    }
+
+    .work-card-foot{
+        margin: 20px 7px 10px;
+    }
+
+    .project-title{
+        font-size: 16px;
+        margin: 10px 8px;
+    }
+
+    .project-tech{
+        margin: 5px 8px
+    }
+
+    .education_title{
+        font-size: 16px;
+    }
+
+   
+    /** projects section **/
+}
+
+
+
+@media screen and (max-width:850px) {
+
+        /** header section **/
+        .nav-link{
+            font-size: 16px;
+        }
+
+        .nav-list{
+            gap: 25px;
+        }
+
+        .scroll-down-button{
+            margin-left: 70px;
+            margin-top: 70px;
+        }
+
+        /* .theme-toggle-container{
+            top: 27px !important;
+            right: 16% !important;
+        }
+     */
+        
+        .switch {
+            --width-of-switch: 3.2em !important;
+            --height-of-switch: 1.9em !important;
+            /* size of sliding icon -- sun and moon */
+            --size-of-icon: 1.2em !important;
+            /* it is like a inline-padding of switch */
+            --slider-offset: 0.3em;
+            width: var(--width-of-switch);
+            height: var(--height-of-switch);
+          }
+        /** header section **/
+
+
+        /** home section **/
+        .profile-pic,
+        .about-pic img{
+            width: 220px;
+            height: 220px;
+        }
+    
+        .main-intro h1, .typing-loop{
+            font-size: 30px !important;
+        }
+
+        .main-intro h2{
+            font-size: 14px;
+            line-height: 18px;
+        }
+
+        .social-media{
+            font-size: 30px;
+        }
+        /** home section **/
+    
+    
+        /** about section **/
+        .about-container{
+            gap: 60px;
+        }
+    
+        .about-left{
+            padding-left: 10px;
+        }
+
+        .about-box{
+            width: 140px;
+        }
+
+        .about-desc h3{
+            font-size: 12px;
+            max-width: 450px;
+        }
+
+        .about-title{
+            font-size: 12px !important;
+        }
+
+        .about-subtitle{
+            font-size: 9px !important;
+        }
+        /** about section **/
+        
+
+        /** skills section **/
+        .skills-box{
+            width: 180px;
+            height: 110px;
+            padding: 1rem 1.1rem;
+        }
+
+        .skills-box h3{
+            font-size: 15px;
+        }
+        /** skills section **/
+
+
+        /** education section **/
+       .education-sections{
+        grid-template-columns: 0.6fr;
+        }
+
+        .education_title{
+            font-size: 18px;
+        }
+
+        .education-subtitle{
+            font-size: 13px;
+        }
+        /** education section **/
+        
+    
+        /** projects section **/
+        .work-container{
+            grid-template-columns: repeat(2, max-content);
+            gap: 3rem;
+        }
+    
+        .work-card{
+            width: 300px;
+            height: 380px;
+        }
+
+        .card {
+            width: 258px;
+            height: 180px;
+        }
+
+        .overlay-text {
+            font-size: 16px;
+          }
+    
+        .project-img{
+            width: 250px;
+            height: 180px;
+            margin-top: 10px;
+        }
+
+        .project-title{
+            font-size: 15px !important;
+            margin: 5px 10px;
+            line-height: 19px;
+        }
+
+        .project-tech{
+         margin: 10px ;
+        }
+        /** projects section **/
+
+
+        /** contact section **/
+
+        .contact-container{
+            gap: 4rem;
+        }
+        .contact-title{
+            font-size: 19px;
+        }
+
+        .contact-info{
+            grid-template-columns: 250px;            
+        }
+        .contact-card-title{
+            font-size: 16px;
+        }
+        .contact-card-data{
+            font-size: 12px;
+        }
+
+        .contact-form{
+            width: 320px;
+        }
+
+        .contact-form-area{
+            height: 13rem;
+        }
+        /** contact section **/
+
+
+        /** footer section **/
+        .skills-head-container h3{
+            font-size: 25px;
+        }
+
+        .footer-nav-link{
+            font-size: 18px;
+        }
+
+        .footer-media{
+            font-size: 20px;
+        }
+
+        .home-section{
+            margin-bottom: 20px;
+        }
+    
+        .wrapper{
+            padding-top: 100px;
+            margin-bottom: 40px;
+        }
+        /** footer section **/
+    }
+
+@media screen and (max-width:750px) {
+
+     /** header section **/
+    .nav-list{
+        row-gap: 30px;
+    }
+
+    .scroll-down-button{
+        margin-left: 10px;
+        margin-top: 90px;
+    }
+
+    .theme-toggle-container{
+        top: 25px !important;
+        right: 12% !important;
+    }
+
+    .nav-toggle{
+        position: fixed;
+        top: 30px;
+        right: 4%;
+        font-size: 18px !important;
+    }
+    .switch {
+        --width-of-switch: 3em !important;
+        --height-of-switch: 1.6em !important;
+        /* size of sliding icon -- sun and moon */
+        --size-of-icon: 1.1em !important;
+        /* it is like a inline-padding of switch */
+        --slider-offset: 0.3em;
+        width: var(--width-of-switch);
+        height: var(--height-of-switch);
+      }
+    /** header section **/
+
+
+    /** home section **/
+    .home-container{
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .left-home{
+       width: 100%;
+    }
+    
+    .right-home{
+        width: 70%;
+    }
+
+    .profile-pic,
+    .about-pic img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .main-intro h1, .typing-loop{
+        font-size: 25px !important;
+    }
+
+    .typing-loop{
+        margin-top: 5px;
+    }
+
+    .main-intro h2{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .welcome h4{
+        font-size: 12px;
+    }
+
+    .social-media{
+        font-size: 25px;
+    }
+    /** home section **/
+
+
+    /** about section **/
+
+    .about-title-head h4,
+    .skills-head-container p{
+        font-size: 11px; 
+        padding: 6px 8px 5px;       
+    }
+
+    .about-container{
+        gap: 50px;
+    }
+
+    .about-box{
+        width: 120px;
+    }
+
+    .about-desc h3{
+        font-size: 11px;
+        max-width: 400px;
+    }
+    /** about section **/
+    
+
+    /** skills section **/
+    .skills-box{
+        width: 160px;
+        height: 100px;
+        padding: 0.8rem 0.9rem;
+    }
+
+    .skills-box h3{
+        font-size: 13px;
+    }
+    /** skills section **/
+
+
+    /** education section **/
+   .education-sections{
+    grid-template-columns: 0.6fr;
+    }
+
+    .education-title h3{
+        font-size: 17px;        
+    }
+
+    .education-title{
+        margin-top: 60px;        
+    }
+
+    .education_title{
+        font-size: 15px;
+    }
+
+    .education-subtitle{
+        font-size: 11px;
+    }
+
+    .education-calendar{
+        font-size: 13px;
+    }
+    /** education section **/
+    
+
+    /** projects section **/
+
+    .work-items{
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .work-card{
+        width: 280px;
+        height: 360px;
+    }
+
+    .project-img{
+        width: 230px;
+        height: 160px;
+        margin-top: 8px;
+    }
+
+    
+    .card {
+        width: 234px;
+        height: 160px;
+    }
+
+    .overlay-text {
+        font-size: 16px;
+      }
+
+    .project-tech{
+     margin: 5px 10px ;
+    }
+
+    .project-details-img{
+        height: 180px;
+    }
+
+    .projects-details{
+        width: 470px;
+        height: 500px;
+    }
+
+    .projects-details-info h3{
+        font-size: 12px ;
+    }
+    .projects-details-info h2{
+        font-size: 16px;
+    }
+    .projects-details-info p{
+        font-size: 12px;
+    }
+    /** projects section **/
+
+
+    /** contact section **/
+
+    .contact-container{
+        gap: 3rem;
+    }
+    .contact-title{
+        font-size: 16px;
+    }
+
+    .contact-card{
+        padding: 10px;
+    }
+
+    .contact-card-icon{
+        font-size: 20px;
+    }
+
+    .contact-info{
+        grid-template-columns: 220px;            
+    }
+    .contact-card-title{
+        font-size: 14px;
+    }
+    .contact-card-data,
+    .contact-button{
+        font-size: 12px;
+    }
+
+    .contact-form{
+        width: 300px;
+    }
+
+    .contact-form-div{
+        height: 3.9rem;
+    }
+
+    .contact-form-area{
+        height: 9.5rem;
+    }
+
+    .contact-form-tag{
+        font-size: 15px;
+    }
+
+    .contact-form-input{
+        font-size: 14px;
+    }
+
+    .contact-submit-button{
+        font-size: 14px;
+    }
+
+    .home-section{
+        margin-bottom: 10px;
+    }
+
+    .wrapper{
+        padding-top: 90px;
+        margin-bottom: 30px;
+    }
+    /** contact section **/
+
+
+    /** footer section **/
+    .skills-head-container h3,
+    .about-title-head h2{
+        font-size: 20px;
+    }
+
+    .footer-nav-link{
+        font-size: 16px;
+    }
+
+    .footer-media{
+        font-size: 17px;
+    }
+
+    .copyright{
+        font-size: 14px;
+    }
+    /** footer section **/
+}
+
+@media screen and (max-width:650px) {
+
+     /** header section **/
+     .nav-list{
+        row-gap: 30px;
+    }
+
+    .scroll-down-button{
+        margin-left: 48px;
+        margin-top: 60px;
+    }
+
+    .theme-toggle-container{
+        top: 29px !important;
+        right: 15% !important;
+    }
+
+    .nav-toggle{
+        position: fixed;
+        top: 30px;
+        right: 4%;
+        font-size: 23px !important;
+    }
+    .switch {
+        --width-of-switch: 3em !important;
+        --height-of-switch: 1.6em !important;
+        --size-of-icon: 1.1em !important;
+      }
+    /** header section **/
+
+
+    /** home section **/
+
+    .home-section{
+        padding-top: 140px;
+    }
+    .home-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .right-home{
+        width: 100%;
+    }
+    
+    .left-home{
+        display: flex;
+    }
+
+    .welcome,
+    .typing-loop,
+    .main-intro  h2{
+        display: flex;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .main-intro h1{
+        display: grid;
+        align-items: center; 
+        justify-self: center !important;
+    }
+
+    .profile-pic,
+    .about-pic img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .main-intro h1, .typing-loop{
+        font-size: 20px !important;
+    }
+
+    .main-intro h2{
+        font-size: 13px;
+        line-height: 18px;
+        max-width: 90%;
+    }
+
+    .welcome h4{
+        font-size: 12px;
+    }
+
+    .social-media{
+        font-size: 25px;
+        justify-content: center;
+    }
+    /** home section **/
+
+
+    /** about section **/
+
+    .about-section{
+        padding-top: 65px;
+    }
+
+    .about-title-head h4,
+    .skills-head-container p{
+        font-size: 11px; 
+        padding: 6px 8px 5px;       
+    }
+
+    .about-container{
+        flex-direction: column;
+        align-items: center !important;        
+    }
+    .about-left{
+        padding: 0;
+    }
+
+    .about-box{
+        width: 120px;        
+    }
+
+    .cv-button{
+        display: flex;
+        justify-self: center;       
+    }
+
+    .download-cv-button{
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .about-box-container{
+        justify-content: center;
+    }
+
+    .about-desc h3{
+        font-size: 13px;
+        max-width: 500px;
+        text-align: center;
+    }
+    /** about section **/
+    
+
+    /** skills section **/
+    .soft-box-container .skills-box{
+        margin: 0;
+    }
+
+    .soft-box-container{
+        gap: 15px;
+    }
+
+    /** skills section **/
+
+
+    /** education section **/
+   .education-sections{
+    grid-template-columns: 0.8fr;
+    }
+    /** education section **/
+    
+
+    /** projects section **/
+
+    .work-container{
+        gap: 25px;
+    }
+
+    .work-items{
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .work-card{
+        width: 240px;
+        height: 340px;
+    }
+
+    .project-img{
+        width: 200px;
+        height: 140px;
+        margin: 5px 0 0px;
+    }
+
+    .card:hover .overlay {
+        top: 2px;
+       }
+
+    
+    .card {
+        width: 200px;
+        height: 140px;
+    }
+
+    .overlay-text {
+        font-size: 16px;
+      }
+
+      .overlay{
+        height: 150px;
+      }
+
+    .project-title{
+        line-height: 20px;
+        margin: 0px 5px;
+    }
+
+    .project-tech{
+     margin: 0px 10px ;
+    }
+
+    .work-card-foot{
+        margin: 0px  5px 5px;
+    }
+    /** projects section **/
+
+
+    /** contact section **/
+
+    .contact-container{
+        gap: 2rem;
+    }
+    .contact-title{
+        font-size: 16px;
+    }
+
+    .contact-card{
+        padding: 10px 5px;
+    }
+
+    .contact-card-icon{
+        font-size: 20px;
+    }
+
+    .contact-info{
+        grid-template-columns: 160px;            
+    }
+    .contact-card-title{
+        font-size: 14px;
+        margin-top: 7px;
+    }
+    .contact-card-data,
+    .contact-button{
+        font-size: 11px;
+    }
+
+    #contact-mail{
+        font-size: 9px;
+    }
+
+    .contact-form{
+        width: 280px;
+    }
+
+    .contact-form-div{
+        height: 3.29rem;
+    }
+
+    .contact-form-area{
+        height: 8.5rem;
+    }
+
+    .contact-form-tag{
+        font-size: 15px;
+    }
+
+    .contact-form-input{
+        font-size: 14px;
+    }
+
+    .contact-submit-button{
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+    /** contact section **/
+
+
+    /** footer section **/
+    .skills-head-container h3,
+    .about-title-head h2{
+        font-size: 20px;
+    }
+
+    .footer-nav-link{
+        font-size: 15px;
+    }
+
+    .footer-media{
+        font-size: 16px;
+    }
+
+    .copyright{
+        font-size: 13px;
+    }
+
+    .scrollup{
+        right: 2rem;
+    }
+    .show-scroll{
+        bottom: 2rem;
+    }
+    /** footer section **/
+
+}
+
+@media screen and (max-width:550px) {
+
+
+         /** header section **/
+         .nav-list{
+            gap: 20px;
+        }
+    
+        .scroll-down-button{
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            margin-left: 0;
+            width: 100%;
+        }
+
+        .theme-toggle-container{
+            top: 29px !important;
+            right: 17% !important;
+        }
+    
+        .nav-toggle{
+            position: fixed;
+            top: 30px;
+            right: 4%;
+            font-size: 23px !important;
+        }
+        .switch {
+            --width-of-switch: 2.8em !important;
+            --height-of-switch: 1.5em !important;
+            --size-of-icon: 1.1em !important;
+            --slider-offset: 0.2em;
+          }
+        /** header section **/
+    
+    
+        /** home section **/
+        .home-section{
+            padding-top: 170px;
+        }
+
+        .profile-pic,
+        .about-pic img{
+            width: 180px;
+            height: 180px;
+        }
+    
+        .welcome h4{
+            font-size: 12px;
+            font-weight: 600;
+        }
+        /** home section **/
+    
+    
+        /** about section **/
+        .download-cv-button{
+            font-size: 14px;
+        }
+    
+        .about-desc h3{
+            font-size: 12px;
+            max-width: 460px;
+            padding: 0 3px;
+        }
+        /** about section **/
+        
+    
+        /** skills section **/
+        .skills-box-container .skills-box{
+            margin: 0 10px;
+        }
+
+        .soft-box-container .skills-box{
+            margin: 0;
+            width: 140px;
+        }
+    
+        .soft-box-container{
+            gap: 10px;
+        }
+    
+        /** skills section **/
+    
+    
+        /** education section **/
+       .education-sections{
+        grid-template-columns: 0.9fr;
+        }
+        /** education section **/
+        
+    
+        /** projects section **/
+    
+        .work-container{
+            gap: 10px;
+        }
+
+        .work-filters{
+            gap: 20px;
+        }
+    
+        .work-items{
+            font-size: 13px;
+            padding: 8px 10px;
+        }
+    
+        .work-card{
+            width: 210px;
+            height: 300px;
+            padding:15px  10px;
+        }
+    
+        .project-img{
+            width: 180px;
+            height: 135px;
+            margin:5px 0px 0px;
+            padding: 0;
+        }
+
+        .card:hover .overlay {
+            top: 5px;
+           }
+    
+        
+        .card {
+            width: 180px;
+            height: 135px;
+        }
+    
+        .overlay-text {
+            font-size: 14px;
+          }
+    
+          .overlay{
+            height: 150px;
+          }
+    
+    
+        .project-title{
+            line-height: 17px;
+            margin: 0px 8px;            
+        }
+    
+        .work-card-foot{
+            margin: 0px  5px 5px;
+        }
+
+        .project-demo,
+        .project-code{
+            padding: 5px 8px;
+        }
+
+        .project-details-img{
+            height: 170px;
+            width: 270px;
+        }
+    
+        .projects-details{
+            width: 400px;
+            height: 450px;
+            padding: 30px;
+            top: 25%;
+        }
+    
+        .projects-details-info h3{
+            font-size: 12px ;
+        }
+        .projects-details-info h2{
+            font-size: 14px;
+        }
+        .projects-details-info p{
+            font-size: 11px !important;
+            line-height: 16px;
+        }
+        /** projects section **/
+    
+    
+        /** contact section **/
+    
+        .contact-container{
+            gap: 2rem;
+        }
+        .contact-title{
+            font-size: 15px;
+        }
+    
+        .contact-card{
+            padding: 10px 5px;
+        }
+    
+        .contact-card-icon{
+            font-size: 18px;
+        }
+    
+        .contact-info{
+            grid-template-columns: 140px;            
+        }
+        .contact-card-title{
+            font-size: 13px;
+            margin-top: 7px;
+        }
+        .contact-card-data,
+        .contact-button{
+            font-size: 11px;
+        }
+    
+        #contact-mail{
+            font-size: 8px;
+        }
+    
+        .contact-form{
+            width: 260px;
+        }
+    
+        .contact-form-div{
+            height: 3rem;
+        }
+    
+        .contact-form-area{
+            height: 8.4rem;
+        }
+    
+        .contact-form-tag{
+            font-size: 14px;
+        }
+    
+        .contact-form-input{
+            font-size: 13px;
+        }
+    
+        .contact-submit-button{
+            font-size: 13px;
+            padding: 8px 15px;
+        }
+        /** contact section **/
+    
+    
+        /** footer section **/
+        .skills-head-container h3,
+        .about-title-head h2{
+            font-size: 20px;
+        }
+
+        .footer-section{
+            padding-top: 60px;
+        }
+    
+        .footer-nav-link{
+            font-size: 14px;
+        }
+    
+        .footer-media{
+            font-size: 15px;
+        }
+
+        .footer-copy{
+            padding-top: 40px;
+        }
+    
+        .copyright{
+            font-size: 12px;
+        }
+    
+        .scrollup{
+            right: 2rem;
+        }
+        .show-scroll{
+            bottom: 2rem;
+        }
+
+        .scrollup-icon{
+            font-size: 18px;
+        }
+        /** footer section **/
+}
+
+@media screen and (max-width:450px) {
+                 /** header section **/
+                 .nav-list{
+                    gap: 20px;
+                }
+
+                .nav-link{
+                    font-size: 14px;
+                }
+            
+                .scroll-down-button{
+                    width: 100%;
+                    padding-top: 70px;
+                }
+                /** header section **/
+            
+            
+                /** home section **/
+                .home-section{
+                    padding-top: 140px;
+                    margin-bottom: 10px;
+                }
+        
+                .profile-pic,
+                .about-pic img{
+                    width: 160px;
+                    height: 160px;
+                }
+            
+                .welcome h4{
+                    font-size: 11px;
+                    font-weight: 600;
+                }
+                /** home section **/
+            
+            
+                /** about section **/
+
+                .download-cv-button{
+                    font-size: 14px;
+                }
+                .about-box{
+                    width: 110px;
+                }
+            
+                .about-desc h3{
+                    font-size: 12px;
+                    max-width: 360px;
+                    padding: 0 3px;
+                    line-height: 22px
+                }
+                /** about section **/
+                
+            
+                /** skills section **/
+                .skills-box-container .skills-box{
+                    margin: 0 5px;
+                    width: 140px;
+                }
+
+                .soft-box-container{
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 30px !important;
+                    
+                }
+        
+                .soft-box-container .skills-box{
+                    margin: 0 5px;                           
+                }
+            
+                .soft-box-container{
+                    gap: 10px;
+                }
+            
+                /** skills section **/
+            
+            
+                /** education section **/
+               .education-sections{
+                grid-template-columns: 1fr;
+                }
+
+                .education_title{
+                    font-size: 14px;
+                }
+                .education-subtitle{
+                    font-size: 10px;
+                }
+                .education-calendar{
+                    font-size: 12px;
+                }
+                /** education section **/
+                
+            
+                /** projects section **/
+            
+                .work-container{
+                    row-gap: 30px;
+                    grid-template-columns: repeat(1, 1fr);                    
+                    justify-items: center;
+                }
+            
+                .work-filters{
+                    gap: 15px;
+                }
+            
+                .work-items{
+                    font-size: 13px;
+                    padding: 8px 10px;
+                }
+            
+                .work-card{
+                    width: 290px;
+                    height: 330px;
+                    padding:20px  15px;
+                }
+            
+                .project-img{
+                    width: 240px;
+                    height: 170px;        
+                }
+
+                .card:hover .overlay {
+                    top: 6px;
+                   }
+            
+                
+                .card {
+                    width: 240px;
+                    height: 170px;
+                }
+            
+                .overlay{
+                height: 170px;
+                }
+            
+        
+                .project-demo,
+                .project-code{
+                    padding: 8px 10px;
+                }
+
+                .project-details-img{
+                    height: 160px;
+                    width: 250px;
+                }
+            
+                .projects-details{
+                    width: 360px;
+                    height: 450px;
+                    padding: 30px;            
+                }
+
+                .projects-details-info h3{
+                    font-size: 11px ;
+                }
+                .projects-details-info h2{
+                    font-size: 12px;
+                }
+                .projects-details-info p{
+                    font-size: 10px;
+                }
+                /** projects section **/
+            
+            
+                /** contact section **/
+            
+                .contact-container{
+                    gap: 2rem;
+                    grid-template-columns: repeat(1, max-content);
+                }
+                .contact-title{
+                    font-size: 15px;
+                    margin-top: 10px
+                }
+            
+                .contact-card{
+                    padding: 10px 5px;
+                    width: 115px;
+                }
+            
+                .contact-card-icon{
+                    font-size: 18px;
+                }
+            
+                .contact-info{
+                    grid-template-columns: repeat(3, 1fr);   
+                    gap: 10px;        
+                }
+                .contact-card-title{
+                    font-size: 13px;
+                    margin-top: 7px;
+                }
+                .contact-card-data{
+                    font-size: 10px;
+                }
+                .contact-button{
+                    font-size: 12px;
+                }
+            
+                #contact-mail{
+                    font-size: 8px;
+                }
+            
+                .contact-form{
+                    width: 360px;
+                }
+            
+                .contact-form-div{
+                    height: 3.5rem;
+                }
+            
+                .contact-form-area{
+                    height: 10rem;
+                }
+            
+                .contact-submit-button{
+                    font-size: 14px;
+                    padding: 15px 15px;
+                    width: 360px;  
+                    margin: 0;                          
+                }
+
+
+                /** contact section **/
+            
+            
+                /** footer section **/
+                .skills-head-container h3,
+                .about-title-head h2{
+                    font-size: 20px;
+                }
+        
+                .footer-section{
+                    padding-top: 60px;
+                }
+            
+                .footer-nav-link{
+                    font-size: 14px;
+                }
+            
+                .footer-media{
+                    font-size: 14px;
+                }
+        
+                .footer-copy{
+                    padding-top: 40px;
+                }
+            
+                .copyright{
+                    font-size: 11px;
+                }
+            
+                .scrollup{
+                    right: 2rem;
+                }
+                .show-scroll{
+                    bottom: 2rem;
+                }
+        
+                .scrollup-icon{
+                    font-size: 18px;
+                }
+                /** footer section **/
+}

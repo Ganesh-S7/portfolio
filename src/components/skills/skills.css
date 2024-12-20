@@ -1,0 +1,137 @@
+.skills-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.skills-head-container h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+body.dark .skills-head-container h3{
+    color: var(--light-color);
+}
+
+.skills-head-container p{
+    font-size: 15px;
+    text-align: center;
+    background: #c4c4c4;
+    color: black;
+    padding: 8px 15px 5px;
+    border-radius: 20px ;
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+body.dark .skills-head-container p{
+    background: #ececec;
+}
+
+
+.skills-box{
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1.3rem 1.20rem;
+    width: 200px;
+    height: 120px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+body.dark .skills-box{
+    background-color: var(--dark-color);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: var(--light-color);
+}
+
+
+
+.skills-box i{
+    font-size: 20px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.skills-box:hover .html{
+    color: rgb(230, 122, 0);
+}
+.skills-box:hover .css{
+    color: rgb(29, 85, 255);
+}
+.skills-box:hover .bs{
+    color: rgb(140, 0, 255);
+}
+.skills-box:hover .js{
+    color: rgb(255, 213, 1);
+}
+.skills-box:hover .rjs{
+    color: rgb(0, 107, 247);
+}
+.skills-box:hover .git{
+    color: rgb(255, 1, 1);
+}
+
+.skills-box:hover{
+    background: #e0e0e0;
+}
+body.dark .skills-box:hover{
+    background: var(--dark-hover);
+}
+
+.skills-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.skills-box h3{
+    font-size: 16px;
+    margin: 5px 4px;
+}
+
+.skills-box p{
+    font-size: 14px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.skills-box-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ; 
+    gap: 30px; 
+}
+
+.soft-box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ; 
+    gap: 30px; 
+}
+
+#soft-skills-head{
+    margin: 40px 0 40px;
+}
+
+.skills-box:hover .soft{
+    color: rgb(37, 117, 255);
+}
+
+/* .skills-box:hover .skills-group i{
+    color: rgb(143, 122, 1);
+} */

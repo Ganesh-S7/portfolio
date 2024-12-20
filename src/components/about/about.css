@@ -1,0 +1,139 @@
+.wrapper{
+    padding-top: 90px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center ;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+.about-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.about-title-head h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+body.dark .about-title-head h2{
+    color: var(--light-color);
+}
+
+.about-title-head h4{
+    font-size: 12px;
+    text-align: center;
+    background: #c4c4c4;
+    color: black;
+    padding: 8px 10px 5px;
+    border-radius: 20px ;
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+    font-weight: 600;
+}
+
+body.dark .about-title-head h4{
+    background-color: #f0f0f0;
+}
+
+.about-pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.about-box-container{
+    display: flex;
+    gap: 10px;
+}
+
+.about-box{
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1.3rem 1.20rem;
+    width: 150px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+body.dark .about-box{
+    background-color: var(--dark-color);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: var(--light-color);
+}
+
+.about-box:hover{
+    background: #e0e0e0;
+}
+body.dark .about-box:hover{
+    background: var(--dark-hover);
+}
+
+.about-box h3{
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+body.dark .about-box h3,
+body.dark .about-box p,
+body.dark .about-desc h3{
+   color: var(--light-color);
+}
+
+.about-box p{
+    font-size: 10px;
+}
+
+.about-desc h3{
+    max-width: 600px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.download-cv-button{
+    margin-top: 35px;
+    background:rgb(29, 29, 29);
+    width: 160px;
+    height: 42px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    color: white;
+    font-weight: 700;
+    padding: 5px 10px;
+    transition: .3s;
+    transition-timing-function: ease-in; 
+}
+body.dark .download-cv-button{
+    background:rgb(200, 200, 200);
+    border: 3px solid rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
+    transition: .3s;
+    transition-timing-function: ease-in; 
+}
+
+
+.download-cv-button:hover{
+    color: #000;
+    background: rgb(255, 255, 255);
+}
+body.dark .download-cv-button:hover{
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+}

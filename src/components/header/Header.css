@@ -1,0 +1,272 @@
+body.light .header-section{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgb(248, 248, 248);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+body.dark .header-section{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgb(32, 32, 32);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+body.light .show-header{
+   box-shadow: 0 0px 4px rgba(0, 0, 0, 0.23);
+}
+body.dark .show-header{
+   box-shadow: 0 0px 4px rgba(255, 255, 255, 0.23);
+}
+
+
+nav{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-right: 70px;
+    /* background: #000; */
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+ a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body.dark .nav-container a{
+    color: var(--light-color);
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nav-list{
+    display: inline-flex;
+    gap: 35px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--title-color);
+    border-bottom: 2px solid transparent;
+    transition: .3s;
+    transition-timing-function:ease-in-out;
+}
+
+body.dark .nav-toggle{
+    color: var(--light-color);
+}
+
+.nav-icon,
+.nav-close,
+.nav-toggle{
+    display: none;
+}
+
+body.light .active-link,
+body.light .nav-link:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+body.dark .active-link,
+body.dark .nav-link:hover{
+    color: var(--light-color);
+    border-bottom: 2px solid var(--light-color);
+}
+
+
+/*************************/
+/*** Responsive design ***/
+/*************************/
+
+@media screen and (max-width:760px) {
+
+    .theme-toggle-container{
+        top: 27px !important;
+        right: 16% !important;
+    }
+
+    .nav-toggle{
+        position: fixed;
+        top: 30px;
+        right: 5%;
+        font-size: 18px !important;
+    }
+    .switch {
+        --width-of-switch: 3em !important;
+        --height-of-switch: 1.6em !important;
+        /* size of sliding icon -- sun and moon */
+        --size-of-icon: 1.1em !important;
+        /* it is like a inline-padding of switch */
+        --slider-offset: 0.3em;
+        width: var(--width-of-switch);
+        height: var(--height-of-switch);
+      }
+    
+
+    .nav-logo{
+        font-size: 20px;
+    }
+
+    .nav-icon,
+    .nav-close,
+    .nav-toggle{
+        display: block;
+    }
+
+     .nav-menu{
+        position: fixed;
+        width: 100%;
+        bottom:-100%;
+        left: 0;
+        padding: 3.5rem 1.5rem 2.5rem;
+        box-shadow: 0 -1px 6px rgba(0,0,0,0.15);
+        border-radius: 1.7rem 1.7rem 0 0 ;
+        transition: .5s;
+        background: rgb(255, 255, 255);
+        transition-timing-function: ease-in-out;
+
+    }
+    body.dark .nav-menu{       
+        box-shadow: 0 -1px 6px rgba(0,0,0,0.15);        
+        background: var(--dark-color);
+        
+    }
+
+    .show-menu{
+        bottom: 0;
+    }
+
+    .nav-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr) ;  
+        gap: 20px;
+    }
+
+    .nav-close{
+        position: absolute;
+        right: 1.3rem;
+        top: 0.5rem;
+        font-size: 1.6rem;
+        cursor: pointer;
+        color: var(--title-color);
+        font-weight: 600;
+        margin: 3px;
+    }
+
+    body.dark .nav-close{
+        color: var(--light-color);
+    }
+
+    .nav-close:hover{
+        color: #000;
+    }
+
+    body.dark .nav-close:hover{
+        color: white;
+    }
+
+    .nav-link{
+        font-size: 15px;
+        margin:0 20px;
+    }
+
+    /* .theme-toggle-container{} */
+}
+
+
+.theme-toggle-container{
+    position: fixed;
+    z-index: 1000;
+    top: 22px;
+    right: 3% ;
+}
+
+
+.switch {
+    display: block;
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    /* size of sliding icon -- sun and moon */
+    --size-of-icon: 1.4em;
+    /* it is like a inline-padding of switch */
+    --slider-offset: 0.3em;
+    position: relative;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #dfdfdf;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon,1.4em);
+    width: var(--size-of-icon,1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset,0.3em);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+    ;
+   transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #303136;
+  }
+  
+  input:checked + .slider:before {
+    left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+    background: #303136;
+    /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+  }
