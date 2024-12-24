@@ -8,7 +8,7 @@ const About = ({theme}) => {
         <div className="about-head">
           <div className="about-title-head" data-aos="zoom-in-down">
             <h2>About Me</h2>
-            <h4>My Interduction</h4>
+            <h4>My Introduction</h4>
           </div>          
         </div>
         <div className="about-container">
@@ -22,7 +22,7 @@ const About = ({theme}) => {
                   <div className="about-box">
                     <i className="bx bx-award"></i>
                     <h3 className="about-title">Experience</h3>
-                    <p className='about-subtitle'>Freasher</p>
+                    <p className='about-subtitle'>Fresher</p>
                   </div>
                   <div className="about-box">
                     <i className="bx bx-briefcase-alt"></i>
