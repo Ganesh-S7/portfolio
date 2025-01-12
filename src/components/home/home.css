@@ -139,8 +139,8 @@ body.dark .linkdin:hover,
     color: #0037ff;
 }
 
-.profile-pic img{
-    /* background: url("../../../public/img/pro2.png"); */
+.profile-pic{
+    background: url("../../../public/img/pro2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -154,8 +154,8 @@ body.dark .linkdin:hover,
     animation: profile-animation 8s ease-in-out infinite 1s ;
 }
 
-body.dark .profile-pic img{
-    /* background: url("../../../public/img/pro2-dark.png"); */
+body.dark .profile-pic{
+    background: url("../../../public/img/pro2-dark.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
