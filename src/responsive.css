@@ -1,7 +1,7 @@
 @media screen and (max-width:990px) {
 
     /** home section **/
-    .profile-pic,
+    .profile-pic img,
     .about-pic img{
         width: 250px;
         height: 250px;
@@ -18,7 +18,7 @@
     .scroll-down-button{
         margin-top: 70px;
         margin-left: 80px;
-    }
+    }cd
     /** home section **/
 
 
@@ -124,7 +124,7 @@
 
 
         /** home section **/
-        .profile-pic,
+        .profile-pic img,
         .about-pic img{
             width: 220px;
             height: 220px;
@@ -342,7 +342,7 @@
         width: 70%;
     }
 
-    .profile-pic,
+    .profile-pic img,
     .about-pic img{
         width: 200px;
         height: 200px;
@@ -633,7 +633,7 @@
         justify-self: center !important;
     }
 
-    .profile-pic,
+    .profile-pic img,
     .about-pic img{
         width: 180px;
         height: 180px;
@@ -641,6 +641,10 @@
 
     .main-intro h1, .typing-loop{
         font-size: 20px !important;
+    }
+
+    .profile-pic{
+        justify-self: center;
     }
 
     .main-intro h2{
@@ -909,7 +913,7 @@
             padding-top: 170px;
         }
 
-        .profile-pic,
+        .profile-pic img,
         .about-pic img{
             width: 180px;
             height: 180px;
@@ -1167,7 +1171,7 @@
                     margin-bottom: 10px;
                 }
         
-                .profile-pic,
+                .profile-pic img,
                 .about-pic img{
                     width: 160px;
                     height: 160px;

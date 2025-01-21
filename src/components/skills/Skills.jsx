@@ -54,6 +54,14 @@ const Skills = () => {
                         <p className='skills-subtitle'>intermediate</p>
                 </div>
                 <div className="skills-box">
+                <i class='bx bxl-redux rdx'></i>
+                    <div className="skills-group">                        
+                        <i class='bx bxs-badge-check'></i>
+                        <h3 className="skills-title">Redux</h3>
+                    </div>
+                        <p className='skills-subtitle'>Basic</p>
+                </div>
+                <div className="skills-box">
                 <i class='bx bxl-git git'></i>
                     <div className="skills-group">                        
                         <i class='bx bxs-badge-check'></i>
@@ -73,9 +81,17 @@ const Skills = () => {
                 <i class="uil uil-server api"></i>
                     <div className="skills-group">                        
                         <i class='bx bxs-badge-check'></i>
-                        <h3 className="skills-title">Rest APIs</h3>
+                        <h3 className="skills-title">RESTful APIs</h3>
                     </div>
                         <p className='skills-subtitle'>intermediate</p>
+                </div>
+                <div className="skills-box">
+                <i class='bx bxl-figma uiux'></i>
+                    <div className="skills-group">                        
+                        <i class='bx bxs-badge-check'></i>
+                        <h3 className="skills-title">UI/UX Principles</h3>
+                    </div>
+                        <p className='skills-subtitle'>Basic</p>
                 </div>
             </div>
         </div>

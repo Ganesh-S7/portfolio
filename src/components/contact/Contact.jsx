@@ -57,6 +57,7 @@ const Contact = () => {
                             className="contact-form-input" 
                             name='name' 
                             placeholder='Insert your name' 
+                            required
                         />
                     </div>
                     <div className="contact-form-div">
@@ -66,6 +67,7 @@ const Contact = () => {
                             className="contact-form-input" 
                             name='email' 
                             placeholder='Insert your email' 
+                            required
                         />
                     </div>
                     <div className="contact-form-div contact-form-area">
@@ -77,6 +79,7 @@ const Contact = () => {
                             placeholder='Write your message' 
                             cols='30'
                             rows='10'
+                            required
                         />
                     </div>
                     <div className="contact-form-divs">

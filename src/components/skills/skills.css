@@ -77,6 +77,9 @@ body.dark .skills-box{
 .skills-box:hover .rjs{
     color: rgb(0, 107, 247);
 }
+.skills-box:hover .rdx{
+    color: rgb(255, 39, 190);
+}
 .skills-box:hover .git{
     color: rgb(255, 1, 1);
 }
@@ -85,6 +88,9 @@ body.dark .skills-box{
 }
 .skills-box:hover .api{
     color: rgb(255, 157, 0);
+}
+.skills-box:hover .uiux{
+    color: rgb(143, 24, 255);
 }
 
 .skills-box:hover{

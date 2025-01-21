@@ -14,7 +14,7 @@ const About = ({theme}) => {
         <div className="about-container">
             <div className="about-left" data-aos='fade-right'>
               <div className="about-pic">
-                <img src={theme===`light`?"../portfolio/img/pro.jpg" : "../portfolio/img/pro-dark.jpg"} alt="user pic" />
+                <img src={theme===`light`?"../img/pro.jpg" : "../img/pro-dark.jpg"} alt="user pic" />
               </div>
             </div>
             <div className="about-right" data-aos='fade-left'>
