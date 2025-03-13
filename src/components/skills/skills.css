@@ -92,6 +92,12 @@ body.dark .skills-box{
 .skills-box:hover .uiux{
     color: rgb(143, 24, 255);
 }
+.skills-box:hover .mui{
+    color: rgb(17, 32, 240);
+}
+.skills-box:hover .jst{
+    color: rgb(251, 71, 0);
+}
 
 .skills-box:hover{
     background: #e0e0e0;

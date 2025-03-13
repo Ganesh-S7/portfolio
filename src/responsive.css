@@ -952,6 +952,10 @@
         .soft-box-container{
             gap: 10px;
         }
+        
+        .skills-group > i{
+            font-size: 12px;
+        }
     
         /** skills section **/
     

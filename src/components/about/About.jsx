@@ -36,7 +36,7 @@ const About = ({theme}) => {
                   </div>
                 </div> 
               <div className="about-desc">
-                <h3>I'm a passionate Frontend Web Developer, with a keen interest in creating intuitive, engaging user interfaces. I've honed my skills in HTML, CSS, JavaScript, Bootstrap, React, Git, and GitHub, and completed over 9 projects. Armed with a certificate in Frontend Web Development from Udemy, I continuously expand my knowledge and tackle new challenges. I'm eager to bring my creativity and technical expertise to impactful web development.</h3>  
+                <h3>I'm a passionate Frontend Web Developer, with a keen interest in creating intuitive, engaging user interfaces. I've honed my skills in HTML, CSS, JavaScript, Bootstrap, Material UI, React, Redux, Restful API, Jest, React Testing library, Git, and GitHub, and completed over 9 projects. Armed with a certificate in Frontend Web Development from Udemy, I continuously expand my knowledge and tackle new challenges. I'm eager to bring my creativity and technical expertise to impactful web development.</h3>  
               </div> 
               <div className='cv-button'>
                         <a href="../Ganesh-S-Resume.pdf" download className="download-cv-button"> Download CV <i class="uil uil-import"></i></a>

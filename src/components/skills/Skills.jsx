@@ -38,10 +38,26 @@ const Skills = () => {
                         <p className='skills-subtitle'>intermediate</p>
                 </div>
                 <div className="skills-box">
+                <i class='bx bxl-meta mui'></i>
+                    <div className="skills-group">                        
+                        <i class='bx bxs-badge-check'></i>
+                        <h3 className="skills-title">Material UI</h3>
+                    </div>
+                        <p className='skills-subtitle'>Basic</p>
+                </div>
+                <div className="skills-box">
                 <i class='bx bxl-javascript js'></i>
                     <div className="skills-group">                        
                         <i class='bx bxs-badge-check'></i>
                         <h3 className="skills-title">JavaScript</h3>
+                    </div>
+                        <p className='skills-subtitle'>intermediate</p>
+                </div>
+                <div className="skills-box">
+                <i class="uil uil-server api"></i>
+                    <div className="skills-group">                        
+                        <i class='bx bxs-badge-check'></i>
+                        <h3 className="skills-title">RESTful APIs</h3>
                     </div>
                         <p className='skills-subtitle'>intermediate</p>
                 </div>
@@ -77,14 +93,15 @@ const Skills = () => {
                     </div>
                         <p className='skills-subtitle'>intermediate</p>
                 </div>
+                
                 <div className="skills-box">
-                <i class="uil uil-server api"></i>
+                <i class='bx bx-check-shield jst'></i>
                     <div className="skills-group">                        
                         <i class='bx bxs-badge-check'></i>
-                        <h3 className="skills-title">RESTful APIs</h3>
+                        <h3 className="skills-title">Jest & RTL</h3>
                     </div>
-                        <p className='skills-subtitle'>intermediate</p>
-                </div>
+                        <p className='skills-subtitle'>Basic</p>
+                </div>               
                 <div className="skills-box">
                 <i class='bx bxl-figma uiux'></i>
                     <div className="skills-group">                        
