@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 // import imgs from '../../../public/img/user.jpg'
 
-const Home = ({theme}) => {   
+const Home = () => {   
   return (
     <>
     <section className='home-section' id='home'>
@@ -26,7 +26,7 @@ const Home = ({theme}) => {
             </div>
             <div className="right-home" data-aos='fade-down-left'>
                 <div className='profile-pic'>
-                    <img src={theme===`light`?"../img/pro2.png" : "../img/pro2-dark.png"} alt="user pic" />
+                    <img src="../img/pro2.webp"  alt="user pic" />
                 </div>
             </div>
         </div>

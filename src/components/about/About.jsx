@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css';
 
-const About = ({theme}) => {
+const About = () => {
   return (
     <>
     <section className="about-section wrapper" id="about">
@@ -14,7 +14,7 @@ const About = ({theme}) => {
         <div className="about-container">
             <div className="about-left" data-aos='fade-right'>
               <div className="about-pic">
-                <img src={theme===`light`?"../img/pro.jpg" : "../img/pro-dark.jpg"} alt="user pic" />
+                <img src="../img/pro.webp" alt="user pic" />
               </div>
             </div>
             <div className="about-right" data-aos='fade-left'>
@@ -39,7 +39,7 @@ const About = ({theme}) => {
                 <h3>I'm a passionate Frontend Web Developer, with a keen interest in creating intuitive, engaging user interfaces. I've honed my skills in HTML, CSS, JavaScript, Bootstrap, Material UI, React, Redux, Restful API, Jest, React Testing library, Git, and GitHub, and completed over 9 projects. Armed with a certificate in Frontend Web Development from Udemy, I continuously expand my knowledge and tackle new challenges. I'm eager to bring my creativity and technical expertise to impactful web development.</h3>  
               </div> 
               <div className='cv-button'>
-                        <a href="../Ganesh-S-Resume.pdf" download className="download-cv-button"> Download CV <i class="uil uil-import"></i></a>
+                        <a href="../Ganesh-Resume.pdf" download className="download-cv-button"> Download CV <i class="uil uil-import"></i></a>
                     </div>                          
             </div>
         </div>

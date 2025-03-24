@@ -35,8 +35,8 @@ const App = () => {
     <Header activeLink={activeLink} setActiveLink={setActiveLink} theme={theme} toggleTheme={toggleTheme} />
     <ShowProject showDetails={showDetails} details={details} setshowDetails={setshowDetails}/>
     <main className="main">
-      <Home theme={theme}/>
-      <About theme={theme}/>
+      <Home />
+      <About />
       <Skills />
       <Education />
       <Projects showDetails={showDetails} setshowDetails={setshowDetails} details={details} setDetails={setDetails} />
